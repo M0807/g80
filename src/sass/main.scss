@@ -1,0 +1,107 @@
+body {
+  background-color: #EFEFEF;
+}
+
+.App{
+  display: flex;
+  justify-content:center;
+  padding: 50px 100px;
+
+}
+
+.container{
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 0 4px;
+  padding: 20px 20px;
+  .top{
+   h4{
+     color: silver;
+   }
+  }
+  .main{
+    width: 340px;
+    background-color: #336CEF;
+    margin-top: 110px;
+    padding: 40px 20px;
+    border-radius: 20%;
+    position: relative;
+    .three{
+      position: absolute;
+      width: 87px;
+      height: 93px;
+      right: 73px;
+      top: -92.5px;
+      background-color: #EDF2F6;
+    }
+    .box{
+      background-color: #EDF2F6;
+      position: absolute;
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      right: 35px;
+      top: -90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 131px;
+        height: 132px;
+        border-radius: 50%;
+
+      }
+    }
+    h1{
+      color: white;
+    }
+    input{
+      width: 90%;
+      padding: 20px 10px;
+      margin-top: 15px;
+      background-color: transparent;
+      border: 1px solid silver;
+      color: white;
+    }
+    h5{
+      margin-left: auto;
+      color: white;
+
+    }
+    button{
+     display: flex;
+      justify-content: center;
+      width: 80%;
+      background-color: white;
+      border-radius: 30px;
+      padding: 15px 0;
+      font-size: 18px;
+      border: 0;
+      margin:15px 0 55px 30px;
+      cursor: pointer;
+    }
+    .blue{
+      position: absolute;
+      width: 84px;
+      height: 95px;
+      border-radius: 15px;
+      background-color: #336CEF;
+      bottom: 0;
+      left: 0;
+    }
+
+  }
+  .bottom{
+    display: flex;
+    padding:0 60px;
+
+    h3{
+      color: #336CEF;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+
+  }
+}
