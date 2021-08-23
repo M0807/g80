@@ -8,7 +8,7 @@ import React, {Component} from 'react';
 
 class App extends Component {
     constructor(props){
-        super(props)
+        super(props);
         this.state={
             isRegistred:true
         }
@@ -16,19 +16,19 @@ class App extends Component {
     }
 
 
-    render(props) {
+    render() {
 
         const onClick=() => {
             this.setState({ isRegistred: !this.state.isRegistred})
-        }
+        };
 
 
 
         return (
             <div className="App">
                 {
-                    this.state.isRegistred? <Item1/>
-                    :<Item2/>
+                    this.state.isRegistred? <Item1 myItem = {onClick}/>
+                    :<Item2 myItem={onClick}/>
                 }
 
             </div>

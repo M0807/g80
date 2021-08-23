@@ -39,7 +39,7 @@ class Item2 extends Component {
 
                 <div className="bottom">
                     <h4>Already have an account?</h4>
-                    <h3 onClick={this.props}>Log In</h3>
+                    <h3 onClick={this.props.myItem}>Log In</h3>
 
                 </div>
 

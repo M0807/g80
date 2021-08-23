@@ -29,7 +29,7 @@ class Item1 extends Component {
 
                 <div className="bottom">
                     <h4>Don't have an account yet ?</h4>
-                    <h3 onClick={this.props}> Join Now </h3>
+                    <h3 onClick={this.props.myItem}> Join Now </h3>
 
                 </div>
 
